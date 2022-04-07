@@ -16,3 +16,8 @@ django-admin startproject myapp .
 ```
 python manage.py runserver
 ```
+
+## 4. Create an app
+```
+django-admin startapp home
+```
