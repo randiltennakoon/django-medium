@@ -31,7 +31,7 @@ docker compose up
 ```
 docker login
 
-docker tag django-medium_app <docker-hub-username/<image-name>:<tag>
+docker tag django-medium_app <docker-hub-username/django-medium-app:v1.0
 
-docker push <docker-hub-username/<image-name>:<tag>
+docker push <docker-hub-username/django-medium-app:v1.0
 ```
