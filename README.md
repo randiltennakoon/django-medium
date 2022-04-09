@@ -1,23 +1,21 @@
 # Django Tutorial - Medium
 
-- This tutorial guides you to get started with Django development.
+## Part 1
 
-## 1. Installation
+## 1. Create the Dockerfile and run the docker container
 ```
-pip install django
-```
+chmod +x build.sh
+chmod +x run.sh
 
-## 2. Create a django project
-```
-django-admin startproject myapp .
-```
-
-## 3. Run the django project with default configuratuions
-```
-python manage.py runserver
+./build.sh
+./run.sh
 ```
 
-## 4. Create an app
+## 2. Push to Docker Hub
 ```
-django-admin startapp home
+docker login
+
+docker tag django-medium_app <docker-hub-username/django-medium-app:v1.0
+
+docker push <docker-hub-username/django-medium-app:v1.0
 ```
