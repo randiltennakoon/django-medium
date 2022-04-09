@@ -27,7 +27,7 @@ django-admin startapp home
 docker compose up
 ```
 
-## 6. Pudh to Docker Hub
+## 6. Push to Docker Hub
 ```
 docker login
 
