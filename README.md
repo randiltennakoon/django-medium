@@ -26,3 +26,12 @@ django-admin startapp home
 ```
 docker compose up
 ```
+
+## 6. Pudh to Docker Hub
+```
+docker login
+
+docker tag django-medium_app <docker-hub-username/<image-name>:<tag>
+
+docker push <docker-hub-username/<image-name>:<tag>
+```
