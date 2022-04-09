@@ -21,3 +21,8 @@ python manage.py runserver
 ```
 django-admin startapp home
 ```
+
+## 5. Build the docker image
+```
+docker compose up
+```
