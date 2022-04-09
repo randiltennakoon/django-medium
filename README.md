@@ -2,6 +2,8 @@
 
 - This tutorial guides you to get started with Django development.
 
+- Part 1: runs on [Docker](https://github.com/randiltennakoon/django-medium/tree/docker)
+
 ## 1. Installation
 ```
 pip install django
@@ -22,9 +24,13 @@ python manage.py runserver
 django-admin startapp home
 ```
 
-## 5. Build the docker image
+## 4. Create the Dockerfile and run the docker container
 ```
-docker compose up
+chmod +x build.sh
+chmod +x run.sh
+
+./build.sh
+./run.sh
 ```
 
 ## 6. Push to Docker Hub
